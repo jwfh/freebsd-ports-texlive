@@ -1,14 +1,13 @@
 # $FreeBSD: head/print/texlive-tlmgr/Makefile 412348 2016-04-01 14:16:16Z mat $
 
 PORTNAME=	texlive
-PORTVERSION=	20150523
-PORTREVISION=	2
+PORTVERSION=	20190410
 CATEGORIES=	print perl5
-MASTER_SITES=	ftp://tug.org/historic/systems/texlive/2015/:tlmgr \
+MASTER_SITES=	ftp://tug.org/historic/systems/texlive/${PORTVERSION:C/....$//}/:tlmgr \
 		LOCAL/hrs:tlpkg
 PKGNAMESUFFIX=	-tlmgr
 DISTFILES=	${PORTNAME}-${PORTVERSION}-extra${EXTRACT_SUFX}:tlmgr \
-		${PORTNAME}-20150521-source${EXTRACT_SUFX}:tlmgr \
+		${PORTNAME}-${PORTVERSION}-source${EXTRACT_SUFX}:tlmgr \
 		${TLPKG_FILE}.xz:tlpkg
 DIST_SUBDIR=	TeX
 EXTRACT_ONLY=	${PORTNAME}-${PORTVERSION}-extra${EXTRACT_SUFX}

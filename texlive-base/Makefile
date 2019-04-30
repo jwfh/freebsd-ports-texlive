@@ -1,10 +1,9 @@
 # $FreeBSD: head/print/texlive-base/Makefile 496982 2019-03-27 21:29:30Z tcberner $
 
 PORTNAME=	texlive
-PORTVERSION=	20150521
-PORTREVISION=	34
+PORTVERSION=	20190410
 CATEGORIES=	print
-MASTER_SITES=	TEX_CTAN/systems/texlive/Source/
+MASTER_SITES=	ftp://tug.org/historic/systems/texlive/${PORTVERSION:C/....$//}/
 PKGNAMESUFFIX=	-base
 DISTNAME=	${PORTNAME}-${DISTVERSION}-source
 DIST_SUBDIR=	TeX

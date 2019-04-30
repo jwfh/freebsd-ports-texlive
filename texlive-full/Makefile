@@ -1,7 +1,7 @@
 # $FreeBSD: head/print/texlive-full/Makefile 415742 2016-05-23 20:35:01Z amdmi3 $
 
 PORTNAME=	texlive
-DISTVERSION=	20150521
+DISTVERSION=	20190410
 CATEGORIES=	print
 PKGNAMESUFFIX=	-full
 

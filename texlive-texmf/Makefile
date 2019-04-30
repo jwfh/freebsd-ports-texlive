@@ -1,10 +1,9 @@
 # $FreeBSD: head/print/texlive-texmf/Makefile 439220 2017-04-23 11:03:22Z miwi $
 
 PORTNAME=	texlive
-PORTVERSION=	20150523
-PORTREVISION=	4
+PORTVERSION=	20190410
 CATEGORIES=	print
-MASTER_SITES=	ftp://ftp.tug.org/historic/systems/texlive/2015/:texmf \
+MASTER_SITES=	ftp://tug.org/historic/systems/texlive/${PORTVERSION:C/....$//}/:texmf \
 		LOCAL/hrs:latex
 PKGNAMESUFFIX=	-texmf
 DISTFILES=	${PORTNAME}-${PORTVERSION}${PKGNAMESUFFIX}${EXTRACT_SUFX}:texmf \

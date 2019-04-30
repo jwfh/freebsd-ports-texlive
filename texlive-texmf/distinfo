@@ -1,4 +1,5 @@
-SHA256 (TeX/texlive-20150523-texmf.tar.xz) = 1efb2b55cbf7ef9a5d2093b31110191d3caac8d4668b413ad63e996e1ebb70a8
-SIZE (TeX/texlive-20150523-texmf.tar.xz) = 1892010092
+TIMESTAMP = 1556612017
+SHA256 (TeX/texlive-20190410-texmf.tar.xz) = c2ec974abc98b91995969e7871a0b56dbc80dd8508113ffcff6923e912c4c402
+SIZE (TeX/texlive-20190410-texmf.tar.xz) = 2845806940
 SHA256 (TeX/latex-base-20150101.2.tar.xz) = f253bb6be5e2ca678f11f0c816d25445259cd48dfda799b65cbd1822f601ad9e
 SIZE (TeX/latex-base-20150101.2.tar.xz) = 10553905
